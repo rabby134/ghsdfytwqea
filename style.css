@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.firsthead{
+    width: 98.2%;
+    background: linear-gradient(rgb(238, 170, 231)rgb(255, 0, 179));
+    padding: 12px;
+}
+nav{
+
+    display: flex;
+    padding: 0 50;
+    justify-content: space-between;
+    align-items: center;
+}
+.fuck ul li{
+    
+ text-decoration: none;
+    display: inline-block;
+    text-align: right;
+    padding: 0px 15px;
+}
+
+.fuck ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  text-align: right;
+  font-size: 20px;
+}
+
+.fuck ul li a:hover{
+  border-radius: 15px;
+  padding: 15px;
+  background-color: rgb(71, 41, 240);
+}
+.firsthead h1{
+    padding-left: 2cm;
+    font-size: 35px;  
+    color: rgb(255, 255, 255);
+}
+#profile{
+    position: relative;
+    top: 3cm;
+    left: 24cm;
+    border-radius: 50%;
+
+}
+body{
+    background: linear-gradient(120deg, rgb(83, 142, 165), rgb(190, 48, 148) );
+    font-family: cursive;
+}
+.intro{
+    color: white;
+    margin-top: -5cm;
+    padding-left: 5cm;
+    
+}
+.intro p{
+    font-size: 20px;
+    padding-top: 0.3cm;
+}
+.btn{
+    background-color: orchid;
+    padding: 6px;
+    margin-top: 0.5cm;
+    border-radius: 20px;
+    
+}
+.vl{
+    border-left: 3px solid black;
+    height: 330px;
+    position: relative;
+    top: -310px;
+    margin-left: 20cm;
+}
+.icon{
+
+color: white;
+}
+.btn:hover{
+    background-color: rgb(162, 136, 235);
+}
